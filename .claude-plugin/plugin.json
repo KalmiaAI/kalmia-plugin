@@ -31,5 +31,5 @@
   "icon": "./.claude-plugin/icon.png",
   "documentationUrl": "https://www.kalmia.dev/docs",
   "termsOfServiceUrl": "https://www.kalmia.dev/terms",
-  "supportUrl": "mailto:team@kalmia.dev"
+  "supportUrl": "https://github.com/KalmiaAI/kalmia-plugin/issues"
 }
