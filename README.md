@@ -73,6 +73,17 @@ npx skills add KalmiaAI/kalmia-plugin
 Some actions use credits from your plan.
 See [pricing](https://www.kalmia.dev/pricing).
 
+## Where your data goes
+
+Everything goes to Kalmia's own service at `www.kalmia.dev`, and nowhere else.
+
+- **The MCP server** sends your agent's requests to `https://www.kalmia.dev/api/mcp`, with your API key. It reads traces already stored in your Kalmia workspace. The action tools write back to that workspace: labels, investigations, and monitoring settings.
+- **The `kalmia-setup` skill** changes your codebase so your app sends its traces to Kalmia (`https://www.kalmia.dev/api/v1/traces/ingest`, or `https://www.kalmia.dev/api/otel/v1/traces` for OpenTelemetry). It sends one test request to check that a trace arrived. It installs the Kalmia SDK from npm or PyPI.
+- **Digests**, if you turn them on, go to the email, Slack or Microsoft Teams destination you choose.
+
+Traces can contain whatever your agent handled, including personal data. Kalmia keeps them for your workspace's retention period.
+See the [privacy policy](https://www.kalmia.dev/privacy).
+
 ## Things to try
 
 - "Set up Kalmia tracing in this repo."
