@@ -7,7 +7,7 @@
     "email": "team@kalmia.dev",
     "url": "https://www.kalmia.dev"
   },
-  "homepage": "https://www.kalmia.dev/docs",
+  "homepage": "https://www.kalmia.dev",
   "repository": "https://github.com/KalmiaAI/kalmia-plugin",
   "license": "MIT",
   "keywords": [
@@ -28,5 +28,8 @@
     }
   },
   "privacyPolicyUrl": "https://www.kalmia.dev/privacy",
-  "icon": "./.claude-plugin/icon.png"
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://www.kalmia.dev/docs",
+  "termsOfServiceUrl": "https://www.kalmia.dev/terms",
+  "supportUrl": "mailto:team@kalmia.dev"
 }
