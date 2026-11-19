@@ -1,0 +1,15 @@
+{
+  "name": "kalmia",
+  "description": "Kalmia for coding agents: the Kalmia MCP server and the skill that sets up Kalmia tracing in a codebase.",
+  "owner": {
+    "name": "Kalmia",
+    "email": "team@kalmia.dev"
+  },
+  "plugins": [
+    {
+      "name": "kalmia",
+      "source": "./",
+      "description": "Query your AI agent traces, root-cause verdicts and issues, and run investigations, from your agent."
+    }
+  ]
+}

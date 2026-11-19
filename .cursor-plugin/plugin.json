@@ -1,0 +1,21 @@
+{
+  "name": "kalmia",
+  "version": "1.0.0",
+  "description": "Kalmia traces your AI agents and finds what went wrong. This plugin connects the Kalmia MCP server (query traces, read root-cause verdicts and issues, run investigations and sweeps) and adds a skill that sets up Kalmia tracing in a codebase.",
+  "author": {
+    "name": "Kalmia",
+    "email": "team@kalmia.dev"
+  },
+  "homepage": "https://www.kalmia.dev/docs",
+  "repository": "https://github.com/KalmiaAI/kalmia-plugin",
+  "license": "MIT",
+  "keywords": [
+    "observability",
+    "tracing",
+    "agents",
+    "llm",
+    "evals",
+    "debugging",
+    "mcp"
+  ]
+}

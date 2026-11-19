@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.kalmia/kalmia",
+  "title": "Kalmia",
+  "description": "Query your AI agent traces, root-cause verdicts and issues, and run investigations, from your agent.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.kalmia.dev",
+  "repository": {
+    "url": "https://github.com/KalmiaAI/kalmia-plugin",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.kalmia.dev/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Your Kalmia workspace API key, sent as 'Bearer kal_live_...'. Create one free at https://www.kalmia.dev/sign-up, under Settings > API keys.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

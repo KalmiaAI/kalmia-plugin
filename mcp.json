@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "kalmia": {
+      "url": "https://www.kalmia.dev/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:KALMIA_API_KEY}"
+      }
+    }
+  }
+}
